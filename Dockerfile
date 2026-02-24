@@ -1,5 +1,5 @@
 # Utilisez une image de base avec Java
-FROM openjdk:17-jdk-slim
+FROM openjdk:21-jdk-slim
 # Définir le répertoire de travail dans le conteneur
 WORKDIR /app
 # Copier le fichier jar généré dans le conteneur
